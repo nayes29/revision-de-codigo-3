@@ -12,13 +12,16 @@
 <body>
 
   <div>
-      <input type="text" placeholder="Seleccioná un color o tipo">
-      <button>Filtrar</button>
-      <h1>Lista de productos </h1>
-      <div id="lista-de-productos">
-    </div>
-  </div>
-  <script src="../filtro.js"></script>
+    <input type="text" id="input" placeholder="Seleccioná un color o tipo">
+    <button id="clickMe" onclick="filtrado()">Filtrar</button> <!--agregue un id al boton-->
+    <h1>Lista de productos </h1>
+    <div id="lista-de-productos"></div>
+</div>
+
+
+  
+
+  <script src="./filtro.js"></script> <!--quite un nivel ya que no conectaba correctamente al docuemento .js -->
 </body>
 
 </html>
